@@ -27,7 +27,7 @@ venv\Scripts\activate  # Windows
 
 3. Установите зависимости:
 ```bash
-pip install aiohttp sqlalchemy asyncpg python-dotenv
+pip install -r requirements.txt
 ```
 
 4. Запустите PostgreSQL через Docker:
@@ -35,7 +35,7 @@ pip install aiohttp sqlalchemy asyncpg python-dotenv
 docker-compose up -d
 ```
 
-5. Создайте файл `.env` с настройками БД:
+5. Создайте файл `.env` с настройками БД
 
 
 ## Запуск
